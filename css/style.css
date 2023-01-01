@@ -2,29 +2,28 @@
     text-align: center;
     background-color: rgb(255, 99, 71);
     font-size: 24px;
-  }
-  
-  #navigation {
+}
+
+#navigation {
     background-color: lightgrey;
     display: flex;
     justify-content: space-around;
-  }
-  
-  #main {
+}
+
+#main {
     width: 70%;
     float: left;
     background-color: white;
-  }
-  
-  #sidebar {
+}
+
+#sidebar {
     width: 30%;
     float: right;
     background-color: lightgrey;
-  }
-  
-  #footer {
+}
+
+#footer {
     clear: both;
     text-align: center;
     background-color: lightblue;
-  }
-  
+}
