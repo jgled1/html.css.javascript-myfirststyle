@@ -1,23 +1,20 @@
 # My First Style
 
 ### Description
-* In this assignment, you will be provided with 4 files:
-  * `MainApplicationTestRunner.js`, `MainApplicationTest.js`, `TestingUtilities.js`, and `index.html`.
+* In this assignment, you will be provided with 5 files:
+  * `MainApplicationTestRunner.js`, `MainApplicationTest.js`, `TestingUtilities.js`, `index.html`, and `style.css`.
 * The goal is to make the `index.html` file look visually appealing by applying the appropriate styles.
-* In the `style.css` file, you will be applying styles to the `index.html` file using css selectors.
-* In the `MainApplicationTest.js` file, you will be find tests to verify that the styles have been applied correctly.
-* To run the tests, open the `index.html` file in a web browser and open the browser's developer console.
 
 #### Completing the Assignment
-* Open the `index.html` file.
+* Open the `style.css` file in an **editor**; _you will be modifying this file_.
+  * This file contains the CSS structure for the page that you will be styling.
+* Open the `MainApplicationTest.js` file in an **editor**; _you will **NOT** be modifying this file_.
+  * This file contains the tests to verify that the styles have been applied correctly.
+* Open the `index.html` file in an **editor**; _you will be modifying this file_.
   * This file contains the HTML structure for the page that you will be styling.
-* Add the appropriate CSS styles to the `index.html` file in order to pass the tests in the `MainApplicationTest.js` file.
-  * You may need to reference the `TestingUtilities.js` file to see what each test is expecting.
-* Once you have styled the `index.html` file, open the `MainApplicationTestRunner.js` file.
-  * This file will run all of the tests in the `MainApplicationTest.js` file when you open it in your web browser.
-* To see the results of the tests, open the `MainApplicationTestRunner.js` file in your web browser.
-  * The tests will run automatically, and the results will be printed to the console.
-* If any tests fail, go back to the `index.html` file and make the necessary changes to pass all of the tests.
+* Open the `index.html` file in a **browser**; _open the browser's developer console_.
+  * To run the tests, refresh the page and view the test results in the developer console tab.
+* Add the appropriate CSS styles to the `style.css` and the respective HTML attributes to the `index.html` file in order to pass the tests in the `MainApplicationTest.js` file.
 
 #### Tips
 * Pay attention to the selectors and values in the `MainApplicationTest.js` file.
