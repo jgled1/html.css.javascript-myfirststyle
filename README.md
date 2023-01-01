@@ -19,14 +19,9 @@
 #### Tips
 * Pay attention to the selectors and values in the `MainApplicationTest.js` file.
 * This is what the tests are expecting, and your styling will need to match these values in order to pass the tests.
-* You may find it helpful to use the console.log function to print out the values of the elements that you are styling.
+* You may find it helpful to use the `console.log` function to print out the values of the elements that you are styling.
   * This can help you debug any issues that you are having.
 * Remember to refresh the page in your web browser after making changes to the `index.html` file in order to see the updated styles.
-
-
-
-#### Notes
-
 
 
 
