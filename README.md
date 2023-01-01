@@ -1,28 +1,35 @@
-# Project Title
+# My First Style
 
-#### Objective
-* Welcome to this CSS assignment!
-* In this assignment, you will be styling an index.html file using a style.css file.
+### Description
+* In this assignment, you will be provided with 4 files:
+  * `MainApplicationTestRunner.js`, `MainApplicationTest.js`, `TestingUtilities.js`, and `index.html`.
 * The goal is to make the `index.html` file look visually appealing by applying the appropriate styles.
+* In the `style.css` file, you will be applying styles to the `index.html` file using css selectors.
+* In the `MainApplicationTest.js` file, you will be find tests to verify that the styles have been applied correctly.
+* To run the tests, open the `index.html` file in a web browser and open the browser's developer console.
 
-#### Instructions
-* Here are the CSS selectors you will be using:
-* `id`: You can select an element by its id attribute.
-  * For example, if you have an element with an `id` of "header", you can select it using `#header`.
-* `class`: You can select an element by its class attribute.
-  * For example, if you have an element with a class of "button", you can select it using `.button`.
-* `type`: You can select an element by its type.
-  * For example, if you want to select all `p` elements, you can use `p`.
-* `descendant`: You can select an element that is a descendant of another element.
-  * For example, if you want to select all `p` elements that are inside a `div`, you can use `div p`.
-* `child`: You can select an element that is a direct child of another element.
-  * For example, if you want to select all li elements that are direct children of a `ul`, you can use `ul > li`.
+#### Completing the Assignment
+* Open the `index.html` file.
+  * This file contains the HTML structure for the page that you will be styling.
+* Add the appropriate CSS styles to the `index.html` file in order to pass the tests in the `MainApplicationTest.js` file.
+  * You may need to reference the `TestingUtilities.js` file to see what each test is expecting.
+* Once you have styled the `index.html` file, open the `MainApplicationTestRunner.js` file.
+  * This file will run all of the tests in the `MainApplicationTest.js` file when you open it in your web browser.
+* To see the results of the tests, open the `MainApplicationTestRunner.js` file in your web browser.
+  * The tests will run automatically, and the results will be printed to the console.
+* If any tests fail, go back to the `index.html` file and make the necessary changes to pass all of the tests.
+
+#### Tips
+* Pay attention to the selectors and values in the `MainApplicationTest.js` file.
+* This is what the tests are expecting, and your styling will need to match these values in order to pass the tests.
+* You may find it helpful to use the console.log function to print out the values of the elements that you are styling.
+  * This can help you debug any issues that you are having.
+* Remember to refresh the page in your web browser after making changes to the `index.html` file in order to see the updated styles.
+
+
 
 #### Notes
-* In the `style.css` file, you will be applying styles to the `index.html` file using the above selectors.
-* In the tests.js file, you will be writing tests to verify that the styles have been applied correctly.
-* To run the tests, open the `index.html` file in a web browser and open the browser's developer console.
-* The test results will be printed to the console.
+
 
 
 
