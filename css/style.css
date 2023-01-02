@@ -1,11 +1,15 @@
+#body {
+    text-align: center;
+    background-color: rgb(71, 255, 141);
+}
+
 #header {
     text-align: center;
-    background-color: rgb(255, 99, 71);
-    font-size: 24px;
+    font-size: 25px;
 }
 
 #navigation {
-    background-color: lightgrey;
+    background-color: lightgoldenrodyellow;
     display: flex;
     justify-content: space-around;
 }
@@ -13,7 +17,7 @@
 #main {
     width: 70%;
     float: left;
-    background-color: white;
+    background-color: cyan;
 }
 
 #sidebar {
@@ -25,5 +29,6 @@
 #footer {
     clear: both;
     text-align: center;
-    background-color: lightblue;
+    color: cyan;
+    background-color: blue;
 }

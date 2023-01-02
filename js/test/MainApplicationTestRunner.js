@@ -1,12 +1,12 @@
 
 function runTests() {
     const tests = [
-        testHeaderBackgroundColor,
-        testHeaderTextSize,
-        testHeaderTextAlignment,
         testListItemTextSize,
         testListItemColor,
-        testListItemPadding
+        testListItemPadding,
+        testHeaderBackgroundColor,
+        testHeaderTextSize,
+        testHeaderTextAlignment
     ];
 
     tests.forEach(test => {
@@ -15,10 +15,14 @@ function runTests() {
             console.log("================================================================================")
             console.log(`Running test with name of '${test.name}'`);
             testResult = test();
+            if(testResult === true) {
+                console.log(`${test.name} output: ${testResult}`);
+            } else {
+                console.error(`${test.name} output: ${testResult}`);
+            }
         } catch (exception) {
             console.error(exception);
-        }
-        console.log(`${test.name} output: ${testResult}`);
+        }        
     });
 }
 
