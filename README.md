@@ -10,8 +10,6 @@
   * This file contains the CSS structure for the page that you will be styling.
 * Open the `MainApplicationTest.js` file in an **editor**; _you will **NOT** be modifying this file_.
   * This file contains the tests to verify that the styles have been applied correctly.
-* Open the `index.html` file in an **editor**; _you will be modifying this file_.
-  * This file contains the HTML structure for the page that you will be styling.
 * Open the `index.html` file in a **browser**; _open the browser's developer console_.
   * To run the tests, refresh the page and view the test results in the developer console tab.
 * Add the appropriate CSS styles to the `style.css` and the respective HTML attributes to the `index.html` file in order to pass the tests in the `MainApplicationTest.js` file.
